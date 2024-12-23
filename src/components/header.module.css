@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  width: 100vw;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  padding: 0 30px;
+}
+
+.ehn {
+  display: flex;
+  gap: 40px;
+}
+
+.ehn .menu h3 {
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  color: black;
+}
+
+.ehn .menu h3:hover {
+  color: #0040d4;
+}
+
+.more h3 {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 7px 20px;
+  background-color: #0040d4;
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+}
