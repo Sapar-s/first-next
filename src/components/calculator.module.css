@@ -1,0 +1,55 @@
+.container {
+  width: 375px;
+  height: 812px;
+  background-color: #17181a;
+  border-radius: 39px;
+  padding: 34px;
+}
+
+.display {
+  color: aliceblue;
+}
+
+.lr {
+  display: flex;
+}
+
+.left button {
+  width: 62px;
+  height: 60px;
+  border-radius: 16px;
+}
+
+.left svg {
+  width: 20px;
+  height: 12px;
+}
+
+.flex button {
+  color: #29a8ff;
+  background-color: #303136;
+  font-weight: 500;
+  font-size: 32px;
+  border: none;
+  margin-top: 16px;
+  margin-right: 20px;
+}
+
+.flx {
+  display: flex;
+  gap: 20px;
+}
+
+.flx button {
+  border: none;
+  color: #29a8ff;
+  margin-top: 16px;
+  background: #303136;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.zero button {
+  width: 144px;
+  height: 60px;
+}
