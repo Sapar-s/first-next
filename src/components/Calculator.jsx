@@ -4,7 +4,7 @@ import { useState } from "react";
 import calculatorstyles from "./calculator.module.css";
 
 export default function Calculator() {
-  const [number, setNumber] = useState("");
+  const [number, setNumber] = useState(0);
   function buttonClicked(n) {
     setNumber(n);
   }
@@ -17,7 +17,7 @@ export default function Calculator() {
     <div className={calculatorstyles.container}>
       <div className={calculatorstyles.display}>
         {/* {number} */}
-        <p>Number {number}</p>
+        <p>{number}</p>
       </div>
       <div className={calculatorstyles.lr}>
         <div className={calculatorstyles.left}>
