@@ -4,6 +4,9 @@
   background-color: #17181a;
   border-radius: 39px;
   padding: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .display {
@@ -12,6 +15,8 @@
 
 .lr {
   display: flex;
+  /* align-items: end; */
+  /* justify-content: end; */
 }
 
 .left button {
@@ -52,4 +57,14 @@
 .zero button {
   width: 144px;
   height: 60px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.right button {
+  width: 52px;
+  height: 50px;
 }
