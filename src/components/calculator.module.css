@@ -3,10 +3,14 @@
   height: 812px;
   background-color: #17181a;
   border-radius: 39px;
-  padding: 34px;
+  padding: 33px;
   display: flex;
   flex-direction: column;
   justify-content: end;
+}
+
+.container button {
+  font-size: 25px;
 }
 
 .display {
@@ -17,24 +21,31 @@
 }
 
 .display p {
-  font-size: 42px;
+  font-size: 46px;
+  overflow: hidden;
 }
 
 .lr {
   display: flex;
-  align-items: end;
-  /* justify-content: end; */
+}
+
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
 }
 
 .left button {
   width: 62px;
   height: 60px;
   border-radius: 16px;
+  margin-right: 20px;
+  border: none;
 }
 
 .left svg {
   width: 20px;
-  height: 12px;
+  height: 22px;
 }
 
 .flex button {
@@ -49,7 +60,6 @@
 
 .flx {
   display: flex;
-  gap: 20px;
 }
 
 .flx button {
@@ -72,8 +82,32 @@
 }
 
 .right button {
-  width: 52px;
-  height: 50px;
+  width: 62px;
+  height: 60px;
   margin-top: 16px;
   border-radius: 16px;
+}
+
+.neg button {
+  margin: 0;
+}
+
+.ond .ak button {
+  background-color: #1991ff;
+}
+
+.ond button {
+  width: 62px;
+  height: 98px;
+  border: none;
+}
+
+.kok button {
+  background-color: #005db2;
+  border: none;
+  /* margin: 0; */
+}
+
+.blue button {
+  background-color: #005db2;
 }
