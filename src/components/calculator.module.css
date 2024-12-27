@@ -11,6 +11,13 @@
 
 .container button {
   font-size: 25px;
+  cursor: pointer;
+  transition: all 0.15s linear;
+}
+
+.container button:hover {
+  opacity: 0.75;
+  transform: translateY(5px);
 }
 
 .display {

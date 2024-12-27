@@ -35,19 +35,23 @@ export default function Calculator() {
     const nums = screen.split(operation);
     switch (operation) {
       case "+":
-        setScreen(Number(nums[0]) + Number(nums[1]));
+        const aaa = Number(nums[0]) + Number(nums[1]);
+        setScreen(aaa.toString());
         break;
 
       case "-":
-        setScreen(Number(nums[0]) - Number(nums[1]));
+        const bbb = Number(nums[0]) - Number(nums[1]);
+        setScreen(bbb.toString());
         break;
 
       case "*":
-        setScreen(Number(nums[0]) * Number(nums[1]));
+        const ccc = Number(nums[0]) * Number(nums[1]);
+        setScreen(ccc.toString());
         break;
 
       case "/":
-        setScreen(Number(nums[0]) / Number(nums[1]));
+        const ddd = Number(nums[0]) / Number(nums[1]);
+        setScreen(ddd.toString());
         break;
     }
   }
