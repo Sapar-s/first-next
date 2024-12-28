@@ -1,5 +1,8 @@
 "use client";
 
+{
+  /* <a href="/"></a>; */
+}
 import { useState } from "react";
 import sudoStyles from "./sudo.module.css";
 import { Square } from "@/components/Square";
