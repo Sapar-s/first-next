@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import calculatorstyles from "./calculator.module.css";
+import Link from "next/link";
 
 export default function Calculator() {
   const [screen, setScreen] = useState("");
@@ -65,7 +66,10 @@ export default function Calculator() {
   }
 
   return (
-    <div className={calculatorstyles.body}>
+    <div className={calculatorstyles.bodu}>
+      <div className={calculatorstyles.next}>
+        <Link href="/sudoku">Go Sudoku</Link>
+      </div>
       <div className={calculatorstyles.container}>
         <div className={calculatorstyles.display}>
           <p>{screen}</p>
@@ -128,9 +132,6 @@ export default function Calculator() {
             </div>
           </div>
         </div>
-      </div>
-      <div className={calculatorstyles.next}>
-        <a href="../sudoku">Sudoku</a>
       </div>
     </div>
   );

@@ -1,3 +1,7 @@
+.bodii {
+  display: flex;
+}
+
 .bdy {
   display: flex;
   flex-direction: column;
@@ -39,4 +43,19 @@
 .btns button {
   width: 100px;
   height: 40px;
+}
+
+.backButton button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #0070f3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 5px;
+}
+
+.backButton button:hover {
+  background-color: #005bb5;
 }
