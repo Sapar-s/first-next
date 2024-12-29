@@ -39,7 +39,7 @@ export default function Sudo() {
       </div>
       <div className={sudoStyles.backButton}>
         <Link href="/">
-          <button>Буцах</button>
+          <button>Back</button>
         </Link>
       </div>
     </div>
